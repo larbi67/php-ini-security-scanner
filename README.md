@@ -54,6 +54,12 @@ Audit Report:
 - Understand Each Setting: Ensure you understand the implications of changing each configuration setting, especially in a production environment.
 - Regular Audits: Perform regular audits of your PHP configuration to maintain a secure environment.
 
+## Additional Resources
+
+For a detailed explanation of how the PHP.ini Security Scanner works, you can read the following article:
+
+[Comprehensive PHP application security audit : Leveraging PHP.ini security scanner, code review, and vulnerability scanning tools](https://larbi-ouiyzme.medium.com/comprehensive-php-application-security-audit-leveraging-php-ini-b015b4d284f4)
+
 ## Contributing
 Feel free to contribute by submitting issues or pull requests. Your contributions are greatly appreciated!
 
