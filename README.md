@@ -56,7 +56,7 @@ Audit Report:
 
 ## Additional Resources
 
-For a detailed explanation of how the PHP.ini Security Scanner works, you can read the following article:
+For a detailed explanation of how the PHP.ini Security Scanner works, you can read the following article :
 
 [Comprehensive PHP application security audit : Leveraging PHP.ini security scanner, code review, and vulnerability scanning tools](https://larbi-ouiyzme.medium.com/comprehensive-php-application-security-audit-leveraging-php-ini-b015b4d284f4)
 
