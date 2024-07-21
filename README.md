@@ -26,27 +26,27 @@ This script audits your PHP configuration (php.ini) for security best practices 
 
 ## Example Report
 
-![Example Report](https://github.com/)
+![Example Report](https://github.com/larbi67/php-ini-security-scanner/blob/main/result.JPG)
 
 Audit Report:
 
-ID P1 (Authentication) - Configuration 'allow_url_fopen': Current Value = on, Recommended Value = Off
-ID P2 (Session Management) - Configuration 'session.cookie_secure': Current Value = Not Set, Recommended Value = On
-ID P2 (Session Management) - Configuration 'session.cookie_httponly': Current Value = Empty, Recommended Value = On
-ID P2 (Session Management) - Configuration 'session.cookie_samesite': Current Value = Empty, Recommended Value = Strict
-ID P5 (Input/Output Validation) - Configuration 'filter.default': Current Value = Not Set, Recommended Value = unsafe_raw
-ID P6 (XSS Protection) - Configuration 'html_errors': Current Value = on, Recommended Value = Off
-ID P8 (Data Protection) - Configuration 'session.entropy_length': Current Value = Not Set, Recommended Value = 32
-ID P8 (Data Protection) - Configuration 'session.hash_function': Current Value = Not Set, Recommended Value = sha256
-ID P9 (File and Upload Security) - Configuration 'file_uploads': Current Value = on, Recommended Value = Off
-ID P10 (Error Handling) - Configuration 'display_errors': Current Value = on, Recommended Value = Off
-ID P12 (Communication Security) - Configuration 'session.cookie_secure': Current Value = Not Set, Recommended Value = On
-ID P16 (Performance Settings) - Configuration 'max_execution_time': Current Value = 1200000.0, Recommended Value = 30.0
-ID P16 (Performance Settings) - Configuration 'memory_limit': Current Value = 512m, Recommended Value = 128.0
-ID P16 (Performance Settings) - Configuration 'post_max_size': Current Value = 400000m, Recommended Value = 8.0
-ID P16 (Performance Settings) - Configuration 'upload_max_filesize': Current Value = 400000m, Recommended Value = 2.0
-ID P17 (Exposure Settings) - Configuration 'expose_php': Current Value = on, Recommended Value = Off
-ID P17 (Exposure Settings) - Configuration 'disable_functions': Current Value = Empty, Recommended Value = exec,passthru,shell_exec,system
+- ID P1 (Authentication) - Configuration 'allow_url_fopen': Current Value = on, Recommended Value = Off
+- ID P2 (Session Management) - Configuration 'session.cookie_secure': Current Value = Not Set, Recommended Value = On
+- ID P2 (Session Management) - Configuration 'session.cookie_httponly': Current Value = Empty, Recommended Value = On
+- ID P2 (Session Management) - Configuration 'session.cookie_samesite': Current Value = Empty, Recommended Value = Strict
+- ID P5 (Input/Output Validation) - Configuration 'filter.default': Current Value = Not Set, Recommended Value = unsafe_raw
+- ID P6 (XSS Protection) - Configuration 'html_errors': Current Value = on, Recommended Value = Off
+- ID P8 (Data Protection) - Configuration 'session.entropy_length': Current Value = Not Set, Recommended Value = 32
+- ID P8 (Data Protection) - Configuration 'session.hash_function': Current Value = Not Set, Recommended Value = sha256
+- ID P9 (File and Upload Security) - Configuration 'file_uploads': Current Value = on, Recommended Value = Off
+- ID P10 (Error Handling) - Configuration 'display_errors': Current Value = on, Recommended Value = Off
+- ID P12 (Communication Security) - Configuration 'session.cookie_secure': Current Value = Not Set, Recommended Value = On
+- ID P16 (Performance Settings) - Configuration 'max_execution_time': Current Value = 1200000.0, Recommended Value = 30.0
+- ID P16 (Performance Settings) - Configuration 'memory_limit': Current Value = 512m, Recommended Value = 128.0
+- ID P16 (Performance Settings) - Configuration 'post_max_size': Current Value = 400000m, Recommended Value = 8.0
+- ID P16 (Performance Settings) - Configuration 'upload_max_filesize': Current Value = 400000m, Recommended Value = 2.0
+- ID P17 (Exposure Settings) - Configuration 'expose_php': Current Value = on, Recommended Value = Off
+- ID P17 (Exposure Settings) - Configuration 'disable_functions': Current Value = Empty, Recommended Value = exec,passthru,shell_exec,system
 
 ## Best Practices
 - Read the php.ini File Line by Line: Carefully review each line in the php.ini file to understand the current configuration settings.
